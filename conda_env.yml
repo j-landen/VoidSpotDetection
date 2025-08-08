@@ -1,0 +1,26 @@
+name: voids
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-image
+  - scikit-learn
+  - tifffile
+  - h5py
+  - zarr
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+  - pip:
+      - opencv-python
+      - umap-learn
+      - flirpy
+      - simple-slurm
+      - albumentations
